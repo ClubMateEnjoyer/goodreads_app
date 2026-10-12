@@ -21,7 +21,7 @@ Die App besteht aus drei Hauptkomponenten:
 
 1. **Repository klonen:**
    ```bash
-   git clone [https://github.com/DEIN_USERNAME/DEIN_REPO_NAME.git](https://github.com/DEIN_USERNAME/DEIN_REPO_NAME.git)
-   cd DEIN_REPO_NAME
+   git clone (https://github.com/ClubMateEnjoyer/goodreads_app.git)
+   cd goodreads_app
    pip install -r requirements.txt
    streamlit run app.py
