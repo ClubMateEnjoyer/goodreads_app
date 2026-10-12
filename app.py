@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-# 1. Page Config (muss immer ganz oben stehen!)
+# 1. Page Config
 st.set_page_config(
     page_title="Goodreads Buchanalyse", 
     page_icon="📚", 
@@ -11,7 +11,6 @@ st.set_page_config(
 # 2. Daten laden (mit Cache, damit die App schnell bleibt)
 @st.cache_data
 def load_data():
-    # Achte darauf, dass der Dateiname exakt mit deiner CSV im data/ Ordner übereinstimmt
     return pd.read_csv('data/goodreads_works_cleaned.csv')
 
 def main():
