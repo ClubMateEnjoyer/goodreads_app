@@ -23,5 +23,5 @@ Die App besteht aus drei Hauptkomponenten:
    ```bash
    git clone (https://github.com/ClubMateEnjoyer/goodreads_app.git)
    cd goodreads_app
-   pip install -r requirements.txt
+   pip install -r req.txt
    streamlit run app.py
